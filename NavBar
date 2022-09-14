@@ -1,0 +1,71 @@
+HTML
+
+<!DOCTYPE html>
+<html> 
+<head>
+  <link href='css/style.css' rel= "stylesheet" 
+<title> AC Repair page </title>
+
+</head>
+
+<body>
+  <div class = "header">
+     <h1 style="color: rgb(210, 247, 0)"; style: center>Title</h1>
+  </div>
+
+
+
+  <div class="topnav">
+    <ul class = "hlist">
+      <a class="active" href="#home">Page 1</a>
+      <a href="#news">Page 2</a>
+      <a href="#contact">Page 3</a>
+      <a href="#about">Page 4</a>
+    </ul>
+  </div>
+
+  </div>
+
+</body> <p> </p>
+</html>
+
+
+style.css
+.header {
+background-color: rgba(1, 96, 238, 0.616);
+padding: 45px;
+text-align: center;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(71, 138, 224);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block; 
+  color: #eeff00;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(192, 190, 77);
+  color: black;
+}
+
+.hlist {
+  display: flex; 
+}
+
+.hlist li {
+  List-style-type: none; 
+}
+
+
