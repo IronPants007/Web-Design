@@ -29,8 +29,11 @@ HTML
 </body> <p> </p>
 </html>
 
+-------------------------------------------------
 
 style.css
+
+
 .header {
 background-color: rgba(1, 96, 238, 0.616);
 padding: 45px;
